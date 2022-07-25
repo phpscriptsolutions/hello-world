@@ -1,5 +1,5 @@
 {
-  "name": "PhpScriptSolutions/hello-world",
+  "name": "phpscriptsolutions/hello-world",
   "description": "the first composer package",
   "type": "php",
   "license": "MIT",
