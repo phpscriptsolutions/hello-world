@@ -1,0 +1,21 @@
+{
+  "name": "PhpScriptSolutions/hello-world",
+  "description": "the first composer package",
+  "type": "php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PhpScripSolutions",
+      "email": "phpscriptsolutions@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpScripSolutions\\SayHello\\": "src/"
+    }
+  }
+}
