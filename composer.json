@@ -19,7 +19,7 @@
   },
   "extra": {
     "laravel": {
-      "providers": [
+      "dont-discover": [
         "PhpScriptSolutions\\SayHello\\SayHelloServiceProvider"
       ]
     }
