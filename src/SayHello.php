@@ -1,9 +1,15 @@
 <?php
 namespace PhpScripSolutions\SayHello;
-class SayHello
-{
-    public static function world()
+
+use Illuminate\Support\ServiceProvider;
+
+class SayHelloServiceProvider extends ServiceProvider {
+    public function boot()
     {
-        return 'Hello World, Composer!';
+
+    }
+    public function register()
+    {
+
     }
 }
